@@ -34,3 +34,25 @@ Le jeu d'entraînement *(train.csv*) contient 10 886 observations nettoyées (au
 - *atemp* : La température "ressentie" en degrés Celsius.
 - *humidity* : Le taux d'humidité relative de l'air (en %).
 - *windspeed* : La vitesse du vent en Km/h.
+- 
+## 🚲 CityBike AI : Dashboard de Pilotage Logistique
+
+Ce projet est doté d'une application web B2B développée avec **Streamlit**. Elle permet aux gestionnaires de flottes de vélos en libre-service d'analyser les tendances historiques et de prédire la demande future grâce au Machine Learning.
+
+## ✨ Fonctionnalités
+* **Mode Dark SaaS :** Interface UI/UX optimisée.
+* **Analytique Historique :** KPIs avec Sparklines et graphiques interactifs (Plotly).
+* **Simulateur IA :** Prédiction de la demande en temps réel basée sur un modèle Random Forest.
+* **Alerte Logistique :** Détection automatique des risques de rupture de stock.
+* **Forecast 24h :** Génération d'une courbe prédictive pour la journée entière avec export CSV.
+
+##  Comment lancer l'application en local
+
+1. Clonez ce dépôt :
+`git clone https://github.com/TonPseudo/citybike-ai.git`
+
+2. Installez les dépendances :
+`pip install -r requirements.txt`
+
+3. Lancez l'application Streamlit :
+`streamlit run app_pro.py`
